@@ -10,6 +10,7 @@ type BaseParams = {
   useOldest?: string;
 };
 
+//wallet age image generator
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   try {
     const {
